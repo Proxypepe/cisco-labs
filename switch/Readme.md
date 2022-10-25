@@ -92,6 +92,7 @@ Switch(config-line)# login
 </ol>
 
 ### Step 6: Enter the MOTD banner.
+
 <details>
 <summary>Create a banner with your message</summary>
 <code>
@@ -100,6 +101,7 @@ Switch(config)# no ip domain-lookup
 </details>
 
 ### Step 7: Set the IP address of the SVI interface.
+
 <details>
 <summary>Set a password for accessing VTY lines and make it prompt for this password.</summary>
 <pre>
@@ -110,6 +112,7 @@ Switch(config-if)# no shutdown
 </details>
 
 ### Step 8: Save the configuration.
+
 <details>
 <summary>What command did you use?</summary>
 <code>
@@ -118,6 +121,7 @@ Switch# copy running-config startup-config
 </details>
 
 ### Step 9: Display the current configuration.
+
 <details>
 <summary>What command did you use?</summary>
 <code>
@@ -126,6 +130,7 @@ Switch# show running-config
 </details>
 
 ### Step 10: Display the IOS version and other switch information.
+
 <details>
 <summary>What command did you use?</summary>
 <code>
@@ -134,6 +139,7 @@ Switch# show version
 </details>
 
 ### Step 11: Display the status of connected switch interfaces.
+
 <details>
 <summary>What command did you use?</summary>
 <code>
@@ -142,6 +148,7 @@ Switch# show ip interface brief
 </details>
 
 ### Step 12: Connect to the S1 switch using the Telnet protocol.
+
 <details>
 <summary>What command did you use?</summary>
 <code>
